@@ -95,4 +95,6 @@ canvas on which to experiment. Implement one of the following features:
 
 #### Ideas
 * Gamifying github a la [coderwall](https://coderwall.com/welcome) badges.
-* Making a splash page for a github username.
+* Making a splash page for an entered github username.
+* Ad libs using words from someone's github profile.
+* A collage using all of an organization's (or cohort's) photos.
