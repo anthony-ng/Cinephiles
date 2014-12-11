@@ -38,7 +38,7 @@ ask yourself about these endpoints:
      - How can you authenticate your API requests?
   4. Decide how to adapt the API to fit your current needs.
 
-What do you want to build with this information?<sup>[1](#ideas)</sup> What information do you need 
+What do you want to build with this information?<sup>[need ideas?](#ideas)</sup> What information do you need 
 to implement your idea? What information can you get out of the API? How can you 
 supplement it? How does the API constrain you?
 
