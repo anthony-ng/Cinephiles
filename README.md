@@ -83,6 +83,9 @@ to you getting rate-limited. To avoid doing so, use
 Now that you have a fully functional, fully tested app, you have the perfect 
 canvas on which to experiment. Implement one of the following features:
 
+  - **Use an endpoint that requires authentication**. You can either implement
+      [full OAuth](https://developer.github.com/v3/oauth/) or 
+      [generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).
   - **Caching.** Can you avoid making unnecessary requests to the external API? 
       Saving data in your own database will prevent you from being rate limited, 
       and will also speed up your site’s user experience.
