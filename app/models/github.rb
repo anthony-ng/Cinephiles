@@ -1,4 +1,4 @@
-module HackerNews
+module Github
 
   class Client
     include HTTParty
