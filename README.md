@@ -67,16 +67,18 @@ We’ve already built a skeleton structure for your API interaction in
 `app/models/github.rb`, where you can encapsulate all interaction with your API. 
 The class uses the HTTParty gem, which you can read more about [here](http://blog.teamtreehouse.com/its-time-to-httparty). 
 
+Test-drive at least your routes. Keep in mind that without proper 
+[mocking](http://en.wikipedia.org/wiki/Mock_object) of your HTTParty requests,
+all of your requests will hit the Github servers. This is not ideal: it's slow
+and you'll quickly run through your rate limit. You can use 
+[rspec method stubs](https://github.com/rspec/rspec-mocks) to return fake data to use
+in your tests.
+
 As you build, you should be incrementally adding to your CSS as well, which 
 should be easy to do since you already decided on your overarching design in 
 the previous release. Make sure it looks professional — at the very least, your 
 application should be [responsive](http://learn.shayhowe.com/advanced-html-css/responsive-web-design/), 
 and you should consider adding [a grid-system.](http://css-tricks.com/dont-overthink-it-grids/)
-
-As you are writing tests, you’ll want to avoid unnecessarily hitting the API for 
-information. Doing so will slow your testing suite to a crawl, and likely lead 
-to you getting rate-limited. To avoid doing so, use 
-[RSpec method stubs](https://www.relishapp.com/rspec/rspec-mocks/v/2-3/docs/method-stubs).
 
 ### Release 3: Optimization and Refactoring
 
