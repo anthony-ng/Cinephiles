@@ -53,7 +53,7 @@ displayed? What is your site’s [color](http://colorschemedesigner.com/)
 [scheme](http://www.colourlovers.com/)?
 
 **Take the design process seriously.** User experience drives not only your 
-front-end design, but also you back-end system architecture. Once you’ve 
+front-end design, but also your back-end system architecture. Once you’ve 
 settled on a front-end design, implementation of that design will be much easier
 — and you’ll know exactly what you’ll need from your back-end.
 
