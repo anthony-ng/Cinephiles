@@ -1,0 +1,5 @@
+<% @org.each do |poster, _| %>
+    <a href="<%= poster['html_url'] %>">
+      <img src="<%= poster['poster_url'] %>">
+    </a>
+<% end %>

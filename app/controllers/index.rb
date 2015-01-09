@@ -2,12 +2,12 @@ get '/' do
   erb :index
 end
 
-get '/org' do
-  api = Github::Client.new(ENV['TOKEN'], "Whatever-we-ant")
-  @org = api.get_org(params[:org])
-  if @org.code == 404
-    erb :no_org, layout: false
+get '/movie' do
+  api = OMDb::Client.new()
+  @movie = api.get_movie(params[:org])
+  if @movie.code == 404
+    erb :no_movie, layout: false
   else
-    erb :org, layout: false
+    erb :movie, layout: false
   end
 end
