@@ -7,7 +7,6 @@ img {
 }
 
 img:hover {
-  /*border-radius: 0;*/
   transform:rotate(360deg);
 }
 
@@ -20,13 +19,12 @@ a {
 }
 
 body {
-  background: url('http://images4.fanpop.com/image/photos/23200000/Nyan-cat-Wallpaper-nyan-cat-23287290-1191-670.jpg') no-repeat center center fixed;
+  background-image: url("http://img1.lesnumeriques.com/test/78/7847/zappiti_player_movie_wall_b.jpg");
   background-size: cover;
 }
 
 h1 {
-  color: white;
-  font-weight: 100;
+  color: yellow;
   text-align: center;
 }
 
@@ -35,8 +33,9 @@ h1 {
   font-size: 2.0rem;
   padding: 1.25rem 2.5rem;
   display: block;
-  background-color: #009ac9;
+  background-color: red;
   border: 1px solid transparent;
+  border-radius: 35px;
   color: #ffffff;
   font-weight: 300;
   -webkit-border-radius: 3px;
@@ -47,8 +46,9 @@ h1 {
 }
 .button:hover {
   background-color: #ffffff;
-  color: #009ac9;
-  border-color: #009ac9;
+  color: blue;
+  border-color: blue;
+  border-radius: 35px;
 }
 
 .input{
@@ -57,8 +57,9 @@ h1 {
   font-size: 2.0rem;
   padding: 1.25rem 2.5rem;
   display: block;
-  background-color: #009ac9;
+  background-color: blue;
   border: 1px solid transparent;
+  border-radius: 35px;
   color: #ffffff;
   font-weight: 300;
   -webkit-border-radius: 3px;
@@ -70,8 +71,9 @@ h1 {
 
 .input.focus {
   background-color: #ffffff;
-  color: #009ac9;
-  border-color: #009ac9;
+  color: blue;
+  border-color: blue;
+  border-radius: 35px;
 }
 
 h2 {

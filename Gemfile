@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 
+# OMDb API
+gem 'omdb'
+
 # PostgreSQL driver
 gem 'pg'
 

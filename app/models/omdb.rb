@@ -5,13 +5,11 @@ module OMDb
 
     base_uri "http://www.omdbapi.com/?"
 
-    def initialize(token, user_agent)
-      @token = "token #{token}"
-      @user_agent = user_agent
-      @headers = {"User-Agent" => @user_agent, "Authorization" => @token}
+    def initialize()
+
     end
 
-    def get_org(org)
+    def get_movie(movie)
       response = self.class.get("/movies/#{movie}/members", {
         headers: @headers,
         query: {per_page: 100}
