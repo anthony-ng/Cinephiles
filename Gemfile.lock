@@ -104,7 +104,6 @@ DEPENDENCIES
   factory_girl
   faker
   httparty
-  jasmine
   omdb
   pg
   rack-test

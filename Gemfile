@@ -30,7 +30,6 @@ group :test do
   gem 'rack-test'
   gem 'rspec'
   gem 'capybara'
-  gem 'jasmine'
 end
 
 group :test, :development do
