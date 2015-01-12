@@ -3,7 +3,8 @@
 ## Summary
 
 Movie Hub is a movie look up website.
-(https://themoviehub.herokuapp.com)
+
+[Movie Hub](https://themoviehub.herokuapp.com)
 
 ## Releases
 
