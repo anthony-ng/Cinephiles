@@ -12,7 +12,7 @@
       <li>Awards: <%= @movie.awards %></li>
       <li>IMDB Rating: <%= @movie.imdb_rating %></li>
       <li>
-        <a href="http://www.amazon.com/s?ie=UTF8&amp;field-keywords=" + <%= @movie.title %> + "&amp;index=blended&amp;link_code=qs&amp;tag=wwwcanoniccom-20">Watch it!</a>
+        <a href="http://www.amazon.com/s?ie=UTF8&amp;field-keywords=<%= @movie.title %>&amp;index=blended&amp;link_code=qs&amp;tag=wwwcanoniccom-20">Watch it!</a>
       </li>
 
     </ul>
