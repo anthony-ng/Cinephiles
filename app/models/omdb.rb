@@ -1,21 +1,21 @@
-module OMDb
+# module OMDb
 
-  class Client
-    include HTTParty
+#   class Client
+#     include HTTParty
 
-    base_uri "http://www.omdbapi.com/?"
+#     base_uri "http://www.omdbapi.com/?"
 
-    def initialize()
+#     def initialize()
 
-    end
+#     end
 
-    def get_movie(movie)
-      response = self.class.get("/movies/#{movie}/members", {
-        headers: @headers,
-        query: {per_page: 100}
-        })
-    end
+#     def get_movie(movie)
+#       response = self.class.get("/movies/#{movie}/members", {
+#         headers: @headers,
+#         query: {per_page: 100}
+#         })
+#     end
 
-  end
+#   end
 
-end
+# end

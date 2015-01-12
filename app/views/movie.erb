@@ -1,5 +1,24 @@
-<% @movie.each do |poster, _| %>
-    <a href="<%= poster['html_url'] %>">
-      <img src="<%= poster['poster_url'] %>">
-    </a>
-<% end %>
+<div class="container">
+
+  <div class="movie_info">
+    <img src="<%= @movie.poster %>">
+    <ul>
+      <li>Title: <%= @movie.title %></li>
+      <li>Year: <%= @movie.year %></li>
+      <li>Genre: <%= @movie.genre %></li>
+      <li>Actors: <%= @movie.actors %></li>
+      <li>Country: <%= @movie.country %></li>
+      <li>Language: <%= @movie.language %></li>
+      <li>Awards: <%= @movie.awards %></li>
+      <li>IMDB Rating: <%= @movie.imdb_rating %></li>
+      <li>
+        <a href="http://www.amazon.com/s?ie=UTF8&amp;field-keywords=" + <%= @movie.title %> + "&amp;index=blended&amp;link_code=qs&amp;tag=wwwcanoniccom-20">Watch it!</a>
+      </li>
+
+    </ul>
+  </div>
+
+  <div class="back">
+    <a href="/">More Movies?</a>
+  </div>
+</div>
