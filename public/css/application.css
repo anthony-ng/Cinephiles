@@ -1,6 +1,6 @@
 img {
-  height: 200px;
-  width: 150px;
+  height: 400px;
+  width: 300px;
   border-radius: 35px;
   transition: width 2s, height 2s, background-color 2s, transform 2s;
   margin: 0 auto;
@@ -28,6 +28,7 @@ h1 {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  font-size: 5em;
 /*
   border: 1px solid transparent;
   border-radius: 35px;
@@ -50,6 +51,7 @@ h1 {
   border-radius: 35px;
   color: #ffffff;
   font-weight: 300;
+  font-size: 4em;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -76,6 +78,7 @@ h1 {
   border-radius: 35px;
   color: #ffffff;
   font-weight: 300;
+  font-size: 4em;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -94,10 +97,16 @@ li {
   color: blue;
   text-align: center;
   list-style-type: none;
+  font-size: 2em;
 }
 
 .movie_info {
   /*background-color: transparent;*/
   background:rgba(255,255,255,0.5);
   margin: 0 auto;
+}
+
+#name {
+  color: green;
+  background:rgba(255,255,255,0.5);
 }
