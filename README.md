@@ -14,3 +14,4 @@ Movie Hub is a movie look up website.
 
 * Updated UI layout
 
+* Updated HTML & CSS
