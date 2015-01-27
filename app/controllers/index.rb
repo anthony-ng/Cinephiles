@@ -4,16 +4,17 @@ end
 
 get '/movie' do
 
-  @movie = Omdb::Api.new.search(params[:movie])
+  movie_hash = Omdb::Api.new.search(params[:movie])
 
-  # @movie = @movie_api[:movie]
-  p @movie.class
-  p @movie.length
+  movie_array = movie_hash[:movies]
+  p movie_array[0]
+  # p movie_array[0].title
 
-  p @movie.first
-  puts
-  puts
-  p @movie.last
+
+
+  p movie_array[0.to_json
+
+
 
   # p @movie.title
   # p @movie.year
