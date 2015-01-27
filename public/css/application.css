@@ -24,14 +24,24 @@
   display: inline-block;
 }
 
+.popular_movies h4 {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.popular_movies h5 {
+  text-align: left;
+  padding-left: 30px;
+  margin-top: -10px;
+}
+
 img {
-  height: 300px;
-  width: 240px;
+  height: 375px;
+  width: 290px;
   border-radius: 35px;
   transition: width 2s, height 2s, background-color 2s, transform 2s;
   padding-left: 20px;
   padding-right: 20px;
-  /*padding-bottom: 20px;*/
 }
 
 /*
