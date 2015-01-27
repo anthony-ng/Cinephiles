@@ -2,15 +2,6 @@
     background-color: #E1E1E1;
 }
 
-img {
-  height: 400px;
-  width: 300px;
-  border-radius: 35px;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
-  margin: 0 auto;
-  display: block;
-}
-
 #welcome {
   text-align: center;
   /*background:rgba(255,255,255,0.5);*/
@@ -31,6 +22,16 @@ img {
 
 .popular_movies {
   display: inline-block;
+}
+
+img {
+  height: 300px;
+  width: 240px;
+  border-radius: 35px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  padding-left: 20px;
+  padding-right: 20px;
+  /*padding-bottom: 20px;*/
 }
 
 /*

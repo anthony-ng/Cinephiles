@@ -1,5 +1,5 @@
 get '/' do
-  popular_movie1 = Omdb::Api.new.fetch('The Hunger Games: Mockingjay - Part 1')
+  popular_movie1 = Omdb::Api.new.fetch('The Hunger Games')
   @popular_movie1 = popular_movie1[:movie]
 
   popular_movie2 = Omdb::Api.new.fetch('The Dark Knight')
