@@ -4,16 +4,22 @@ end
 
 get '/movie' do
 
-  @movie_api = Omdb::Api.new.fetch(params[:movie])
+  @movie = Omdb::Api.new.search(params[:movie])
 
-  @movie = @movie_api[:movie]
+  # @movie = @movie_api[:movie]
   p @movie.class
+  p @movie.length
 
-  p @movie.title
-  p @movie.year
-  p @movie.rated
-  p @movie.genre
-  p @movie.poster
+  p @movie.first
+  puts
+  puts
+  p @movie.last
 
-  erb :movie
+  # p @movie.title
+  # p @movie.year
+  # p @movie.rated
+  # p @movie.genre
+  # p @movie.poster
+
+  # erb :movie
 end
