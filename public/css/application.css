@@ -13,33 +13,19 @@ a {
   font-weight: bold;
 }
 
-.container {
-  padding: 1%;
-}
-
 body {
   background-image: url("http://img1.lesnumeriques.com/test/78/7847/zappiti_player_movie_wall_b.jpg");
   background-size: cover;
 }
 
 h1 {
-  color: yellow;
+  color: white;
   text-align: center;
   background:rgba(255,255,255,0.5);
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 5em;
-/*
-  border: 1px solid transparent;
-  border-radius: 35px;
-  font-weight: 300;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;*/
-  /*border: 1px solid transparent;*/
+  /*font-size: 5em;*/
 }
 
 .button {
