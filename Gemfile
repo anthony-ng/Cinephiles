@@ -19,6 +19,8 @@ gem 'activerecord'
 
 gem 'rake'
 
+gem 'hirb'
+
 gem 'shotgun'
 
 gem 'httparty'
