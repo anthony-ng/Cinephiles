@@ -34,5 +34,5 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 * Add about page
 
-*
+* Add changing background image
 
