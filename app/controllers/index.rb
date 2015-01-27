@@ -1,6 +1,15 @@
 get '/' do
-  popular_movie1 = Omdb::Api.new.fetch('The Dark Knight')
+  popular_movie1 = Omdb::Api.new.fetch('The Hunger Games: Mockingjay - Part 1')
   @popular_movie1 = popular_movie1[:movie]
+
+  popular_movie2 = Omdb::Api.new.fetch('The Dark Knight')
+  @popular_movie2 = popular_movie2[:movie]
+
+  popular_movie3 = Omdb::Api.new.fetch('The Avengers')
+  @popular_movie3 = popular_movie3[:movie]
+
+  popular_movie4 = Omdb::Api.new.fetch('The Interview')
+  @popular_movie4 = popular_movie4[:movie]
 
   erb :index
 end
