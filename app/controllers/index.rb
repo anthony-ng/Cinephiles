@@ -5,16 +5,22 @@ end
 get '/movie' do
 
   all_movies = Omdb::Api.new.search(params[:movie])
+  movies_info = all_movies[:movies]
 
-  # movies_info = all_movies[:movies]
-  # first_movie = movies_info[0]
+  if movies_info.size > 0
+    @movie_list = []
+    movies_info.each do |movie|
+      @movie_list << movie
+    end
 
-  if all_movies[:movies].size > 0
-    # puts first_movie.title
-
+    p @movie_list.first
+    p "################"
+    p @movie_list.last
   else
     puts "Non Existing movie name"
   end
+
+
 
 
   # p first_arr.to_json
