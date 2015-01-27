@@ -18,26 +18,24 @@ get '/movie' do
 
   all_movies = Omdb::Api.new.search(params[:movie])
   movies_info = all_movies[:movies]
+  p movies_info.length
+  p movies_info
+  p "----------------------THIS IS A LINE-------------------"
 
-  if movies_info.size > 0
+  if movies_info.length > 0
     @movie_list = []
     movies_info.each do |movie|
-      @movie_list << movie
+      the_movie = Omdb::Api.new.fetch(movie.title)
+      @movie_list << the_movie[:movie]
     end
-
-    p @movie_list.first
+    p @movie_list.length
+    p @movie_list[0]
     p "################"
-    p @movie_list.last
+    p @movie_list[1]
   else
     puts "Non Existing movie name"
   end
 
-
-  # p @movie.title
-  # p @movie.year
-  # p @movie.rated
-  # p @movie.genre
-  # p @movie.poster
-
-  # erb :movie
+  erb :movie
 end
+

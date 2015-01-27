@@ -11,77 +11,77 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
   <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body class="body">
 
-  <body class="body">
-
-    <nav class="navbar navbar-default navbar-static-top">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Cinephiles</a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Popular</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="./">Login<span class="sr-only">(current)</span></a></li>
-          <li><a href="../navbar-fixed-top/">Register</a></li>
-        </ul>
-        <form class="navbar-form navbar-right" action="/movie" method="get">
-          <input type="text" name="movie" class="form-control" placeholder="Search for a movie...">
-          <input type="submit" class="form-control" value="Search">
-        </form>
-      </div>
-    </nav>
-
-    <h1 id="welcome">Watch movies anytime, anywhere</h1>
-    <h3 id="sub_welcome">Welcome to the Cinephiles, your private theater</h3>
-
-    <div id="popular_movies_div">
-      <h3>Popular Movies</h3><br>
-      <div class="popular_movies">
-        <img src="<%= @popular_movie1.poster %>">
-        <h4><%= @popular_movie1.title %></h4>
-        <h5><%= @popular_movie1.year %></h5>
-      </div>
-      <div class="popular_movies">
-        <img src="<%= @popular_movie2.poster %>">
-        <h4><%= @popular_movie2.title %></h4>
-        <h5><%= @popular_movie2.year %></h5>
-      </div>
-      <div class="popular_movies">
-        <img src="<%= @popular_movie3.poster %>">
-        <h4><%= @popular_movie3.title %></h4>
-        <h5><%= @popular_movie3.year %></h5>
-      </div>
-      <div class="popular_movies">
-        <img src="<%= @popular_movie4.poster %>">
-        <h4><%= @popular_movie4.title %></h4>
-        <h5><%= @popular_movie4.year %></h5>
-      </div>
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Cinephiles</a>
     </div>
-
-    <div class="footer">
-      <h4>2015 by Anthony Ng</h4>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Popular</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="./">Login<span class="sr-only">(current)</span></a></li>
+        <li><a href="../navbar-fixed-top/">Register</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" action="/movie" method="get">
+        <input type="text" name="movie" class="form-control" placeholder="Search for a movie...">
+        <input type="submit" class="form-control" value="Search">
+      </form>
     </div>
+  </nav>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="js/application.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-    e.src='//www.google-analytics.com/analytics.js';
-    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
-  </body>
-  </html>
+  <h1 id="welcome">Watch movies anytime, anywhere</h1>
+  <h3 id="sub_welcome">Welcome to the Cinephiles, your private theater</h3>
+
+  <div id="popular_movies_div">
+    <h3>Popular Movies</h3><br>
+    <div class="popular_movies">
+      <img src="<%= @popular_movie1.poster %>">
+      <h4><%= @popular_movie1.title %></h4>
+      <h5><%= @popular_movie1.year %></h5>
+    </div>
+    <div class="popular_movies">
+      <img src="<%= @popular_movie2.poster %>">
+      <h4><%= @popular_movie2.title %></h4>
+      <h5><%= @popular_movie2.year %></h5>
+    </div>
+    <div class="popular_movies">
+      <img src="<%= @popular_movie3.poster %>">
+      <h4><%= @popular_movie3.title %></h4>
+      <h5><%= @popular_movie3.year %></h5>
+    </div>
+    <div class="popular_movies">
+      <img src="<%= @popular_movie4.poster %>">
+      <h4><%= @popular_movie4.title %></h4>
+      <h5><%= @popular_movie4.year %></h5>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h4>2015 by Anthony Ng</h4>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/application.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script>
+  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+  e.src='//www.google-analytics.com/analytics.js';
+  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+  ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>
+</body>
+</html>
