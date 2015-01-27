@@ -24,6 +24,15 @@ img {
   text-align: center;
 }
 
+#popular_movies_div {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.popular_movies {
+  display: inline-block;
+}
+
 /*
 .button {
   margin: 0 auto;
