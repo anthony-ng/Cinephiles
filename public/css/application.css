@@ -13,16 +13,11 @@ a {
   font-weight: bold;
 }
 
-body {
-  /*background-image: url("http://img1.lesnumeriques.com/test/78/7847/zappiti_player_movie_wall_b.jpg");*/
-  /*background-size: cover;*/
-}
-
 h1 {
-  color: white;
+  /*color: white;*/
   text-align: center;
-  background:rgba(255,255,255,0.5);
-  width: 80%;
+  /*background:rgba(255,255,255,0.5);*/
+  /*width: 80%;*/
   margin-left: auto;
   margin-right: auto;
   /*font-size: 5em;*/
