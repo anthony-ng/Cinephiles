@@ -21,12 +21,6 @@ get '/movie' do
   end
 
 
-
-
-  # p first_arr.to_json
-
-
-
   # p @movie.title
   # p @movie.year
   # p @movie.rated
