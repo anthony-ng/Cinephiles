@@ -1,3 +1,12 @@
+/*.container {
+  background-color: yellow;
+  /*background-size: cover;*/
+/*}*/
+
+.body {
+    background-color: #E1E1E1;
+}
+
 img {
   height: 400px;
   width: 300px;
