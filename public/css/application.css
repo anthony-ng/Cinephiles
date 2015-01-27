@@ -16,7 +16,7 @@
 }
 
 #popular_movies_div {
-  padding-top: 30px;
+  padding-top: 80px;
   text-align: center;
 }
 
@@ -42,6 +42,12 @@ img {
   transition: width 2s, height 2s, background-color 2s, transform 2s;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.footer {
+  /*Could change to  windows height using js*/
+  padding-top: 250px;
+  text-align: center;
 }
 
 /*
