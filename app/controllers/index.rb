@@ -1,4 +1,7 @@
 get '/' do
+  popular_movie1 = Omdb::Api.new.fetch('The Dark Knight')
+  @popular_movie1 = popular_movie1[:movie]
+
   erb :index
 end
 
