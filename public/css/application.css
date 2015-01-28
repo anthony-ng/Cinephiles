@@ -69,6 +69,20 @@ img {
   padding-top: 200px;
 }
 
+#movie_0, #movie_1, #movie_2, #movie_3, #movie_4, #movie_5, #movie_6, #movie_7, #movie_8 {
+  display: inline-block;
+}
+
+.movie_info li {
+  width: 400px;
+  list-style: none;
+  font-size: 1.3em;
+}
+
+.movie_info {
+  text-align: center;
+}
+
 /*
 .button {
   margin: 0 auto;
