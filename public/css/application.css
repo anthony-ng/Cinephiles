@@ -19,6 +19,7 @@
   text-align: left;
   margin-left: 380px;
   width: 400px;
+  background: url('/imgs/oscar.jpg')
 }
 
 #popular_movies_div {
