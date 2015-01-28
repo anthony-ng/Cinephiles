@@ -50,6 +50,11 @@ img {
   text-align: center;
 }
 
+#movie_check {
+  text-align: center;
+  padding-top: 200px;
+}
+
 /*
 .button {
   margin: 0 auto;
