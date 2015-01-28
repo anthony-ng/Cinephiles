@@ -2,7 +2,7 @@
     background-color: #E1E1E1;
 }
 
-#welcome {
+#welcome, #about {
   text-align: center;
   /*background:rgba(255,255,255,0.5);*/
   margin-left: auto;
@@ -13,6 +13,12 @@
 
 #sub_welcome {
   text-align: center;
+}
+
+#sub_about {
+  text-align: left;
+  margin-left: 380px;
+  width: 400px;
 }
 
 #popular_movies_div {

@@ -39,3 +39,7 @@ get '/movie' do
   erb :movie
 end
 
+get '/about' do
+  erb :about
+end
+
