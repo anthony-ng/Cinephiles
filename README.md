@@ -20,9 +20,13 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 * Added popular movies on homepage
 
-### Upcoming
+## Beta 1.0.3
 
-* Add Result page: has poster & other details/ links to amazon
+* Added about page
+
+* Added result page: has poster & other details/ links to amazon
+
+### Upcoming
 
 * Implement Active Record
 
@@ -31,8 +35,6 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 * Users can register
 
 * Users can save favorite movies
-
-* Add about page
 
 * Add changing background image
 
