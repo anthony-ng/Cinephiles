@@ -47,7 +47,7 @@
     <% if @movie_list %>
       <% @movie_list.take(9).each_with_index do |movie, index| %>
       <div id="movie_<%= index %>">
-        <img src="<%= movie.poster %>">
+        <img src="<%= movie.poster %>" class="poster">
         <ul>
           <li><b>Title: <%= movie.title %></b></li>
           <li>Year: <%= movie.year %></li>
