@@ -57,16 +57,22 @@ get '/popular' do
   @popular_movie4 = popular_movie4[:movie]
 
   popular_movie5 = Omdb::Api.new.fetch('TAKEN 3')
-  @popular_movie5 = popular_movie4[:movie]
+  @popular_movie5 = popular_movie5[:movie]
 
   popular_movie6 = Omdb::Api.new.fetch('THE IMITATION GAME')
-  @popular_movie6 = popular_movie4[:movie]
+  @popular_movie6 = popular_movie6[:movie]
 
-  popular_movie7 = Omdb::Api.new.fetch('STRANGE MAGIC')
-  @popular_movie7 = popular_movie4[:movie]
+  popular_movie7 = Omdb::Api.new.fetch('BIRDMAN')
+  @popular_movie7 = popular_movie7[:movie]
 
   popular_movie8 = Omdb::Api.new.fetch('SELMA')
-  @popular_movie8 = popular_movie4[:movie]
+  @popular_movie8 = popular_movie8[:movie]
+
+  popular_movie9 = Omdb::Api.new.fetch('SELMA')
+  @popular_movie9 = popular_movie9[:movie]
+
+  popular_movie10 = Omdb::Api.new.fetch('SELMA')
+  @popular_movie10 = popular_movie10[:movie]
 
   erb :popular
 end
