@@ -26,9 +26,17 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 * Added result page: has poster & other details/ links to amazon
 
+## Beta 1.0.4
+
+* Added Popular page
+
+* Added Coming Soon page
+
+* Added Theater page with Google Map API
+
 ### Upcoming
 
-* Implement Active Record
+* Save Image into Database for faster load time
 
 * Users can log-in/out
 
@@ -37,4 +45,5 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 * Users can save favorite movies
 
 * Add changing background image
+
 
