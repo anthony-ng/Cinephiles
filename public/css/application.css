@@ -60,7 +60,7 @@ img {
   padding-right: 20px;
 }
 
-.footer {
+#footer {
   /*Could change to  windows height using js*/
   padding-top: 250px;
   text-align: center;
