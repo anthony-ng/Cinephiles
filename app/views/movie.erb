@@ -51,12 +51,12 @@
           <li>Year: <%= movie.year %></li>
           <li>Genre: <%= movie.genre %></li>
           <li>Actors: <%= movie.actors %></li>
-          <li>Country: <%= movie.country %></li>
-          <li>Language: <%= movie.language %></li>
-          <li>Awards: <%= movie.awards %></li>
-          <li>IMDB Rating: <%= movie.imdb_rating %></li>
+          <li>Meta Score: <%= movie.metascore %></li>
           <li>
-            <a href="http://www.amazon.com/s?ie=UTF8&amp;field-keywords=<%= movie.title %>&amp;index=blended&amp;link_code=qs&amp;tag=wwwcanoniccom-20">Watch it!</a>
+            <a href="http://www.amazon.com/s?ie=UTF8&amp;field-keywords=<%= movie.title %>&amp;index=blended&amp;link_code=qs&amp;tag=wwwcanoniccom-20">Buy it!</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/results?search_query=<%= movie.title %>">Watch it!</a>
           </li>
         </ul>
       </div>
