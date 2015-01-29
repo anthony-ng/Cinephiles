@@ -78,6 +78,36 @@ get '/popular' do
 end
 
 get '/comingsoon' do
+  comingsoon_movie1 = Omdb::Api.new.fetch('Jupiter Ascending')
+  @comingsoon_movie1 = comingsoon_movie1[:movie]
+
+  comingsoon_movie2 = Omdb::Api.new.fetch('The Peanuts Movie')
+  @comingsoon_movie2 = comingsoon_movie2[:movie]
+
+  comingsoon_movie3 = Omdb::Api.new.fetch('Kingsman: The Secret Service')
+  @comingsoon_movie3 = comingsoon_movie3[:movie]
+
+  comingsoon_movie4 = Omdb::Api.new.fetch('Hot Tub Time Machine 2')
+  @comingsoon_movie4 = comingsoon_movie4[:movie]
+
+  comingsoon_movie5 = Omdb::Api.new.fetch('Jurassic World')
+  @comingsoon_movie5 = comingsoon_movie5[:movie]
+
+  comingsoon_movie6 = Omdb::Api.new.fetch('Chappie')
+  @comingsoon_movie6 = comingsoon_movie6[:movie]
+
+  comingsoon_movie7 = Omdb::Api.new.fetch('Minions')
+  @comingsoon_movie7 = comingsoon_movie7[:movie]
+
+  comingsoon_movie8 = Omdb::Api.new.fetch('Paul Blart: Mall Cop 2')
+  @comingsoon_movie8 = comingsoon_movie8[:movie]
+
+  comingsoon_movie9 = Omdb::Api.new.fetch('Insurgent')
+  @comingsoon_movie9 = comingsoon_movie9[:movie]
+
+  comingsoon_movie10 = Omdb::Api.new.fetch('Furious 7')
+  @comingsoon_movie10 = comingsoon_movie10[:movie]
+
   erb :coming
 end
 
