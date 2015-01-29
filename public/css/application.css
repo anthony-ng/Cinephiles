@@ -89,6 +89,10 @@ img {
   padding-top: 10px;
 }
 
+.movie_info a {
+  font-weight: bold;
+}
+
 /*
 .button {
   margin: 0 auto;
