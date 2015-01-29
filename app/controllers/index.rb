@@ -43,3 +43,14 @@ get '/about' do
   erb :about
 end
 
+get '/popular' do
+  erb :popular
+end
+
+get '/coming soon' do
+  erb :coming
+end
+
+get '/theater' do
+  erb :theater
+end
