@@ -47,7 +47,7 @@ get '/popular' do
   erb :popular
 end
 
-get '/coming soon' do
+get '/coming_soon' do
   erb :coming
 end
 
