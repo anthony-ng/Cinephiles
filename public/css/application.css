@@ -29,12 +29,15 @@
   margin-top: -170px;
 }
 
-#popular_movies_div {
+#home_popular_movies_div {
   padding-top: 80px;
   text-align: center;
 }
 
-#popular_movies_div
+#popular_movies_div {
+  padding-top: 30px;
+  text-align: center;
+}
 
 .popular_movies {
   display: inline-block;
