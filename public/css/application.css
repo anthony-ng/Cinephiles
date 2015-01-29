@@ -1,5 +1,5 @@
 .body {
-    background-color: #E1E1E1;
+  background-color: #E1E1E1;
 }
 
 #welcome, #about {
@@ -97,6 +97,7 @@ img {
 .movie_info a {
   font-weight: bold;`
 }
+
 
 /*
 .button {
