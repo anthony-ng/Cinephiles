@@ -98,6 +98,18 @@ img {
   font-weight: bold;`
 }
 
+video #bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(../images/ironman.jpg) no-repeat;
+background-size: cover;
+z-index: 0;
+}
+
+html { background: url(../images/ironman.jpg) #000 no-repeat center center fixed; }
+#bgvid { display: none; }
+}
 
 /*
 .button {
