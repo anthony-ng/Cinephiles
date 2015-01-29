@@ -53,7 +53,7 @@ get '/popular' do
   popular_movie3 = Omdb::Api.new.fetch('PADDINGTON')
   @popular_movie3 = popular_movie3[:movie]
 
-  popular_movie4 = Omdb::Api.new.fetch('THE HOBBIT: THE BATTLE OF THE FIVE ARMIES')
+  popular_movie4 = Omdb::Api.new.fetch('THE THEORY OF EVERYTHING')
   @popular_movie4 = popular_movie4[:movie]
 
   popular_movie5 = Omdb::Api.new.fetch('TAKEN 3')
@@ -71,7 +71,7 @@ get '/popular' do
   popular_movie9 = Omdb::Api.new.fetch('NIGHT AT THE MUSEUM: SECRET OF THE TOMB')
   @popular_movie9 = popular_movie9[:movie]
 
-  popular_movie10 = Omdb::Api.new.fetch('THE THEORY OF EVERYTHING')
+  popular_movie10 = Omdb::Api.new.fetch('Project Almanac')
   @popular_movie10 = popular_movie10[:movie]
 
   erb :popular
@@ -84,7 +84,7 @@ get '/comingsoon' do
   comingsoon_movie2 = Omdb::Api.new.fetch('The Peanuts Movie')
   @comingsoon_movie2 = comingsoon_movie2[:movie]
 
-  comingsoon_movie3 = Omdb::Api.new.fetch('Kingsman: The Secret Service')
+  comingsoon_movie3 = Omdb::Api.new.fetch('Furious 7')
   @comingsoon_movie3 = comingsoon_movie3[:movie]
 
   comingsoon_movie4 = Omdb::Api.new.fetch('Hot Tub Time Machine 2')
@@ -105,7 +105,7 @@ get '/comingsoon' do
   comingsoon_movie9 = Omdb::Api.new.fetch('Insurgent')
   @comingsoon_movie9 = comingsoon_movie9[:movie]
 
-  comingsoon_movie10 = Omdb::Api.new.fetch('Furious 7')
+  comingsoon_movie10 = Omdb::Api.new.fetch('Kingsman: The Secret Service')
   @comingsoon_movie10 = comingsoon_movie10[:movie]
 
   erb :coming
