@@ -5,7 +5,8 @@ $('document').ready( function(){
   var image_el = $('.poster')
   for (i = 0; i < image_el.length; i++) {
     if (image_el[i].width < 1) {
-      console.log("No Image!")
+      console.log("No Image!");
+      image_el.innerHTML = '<h4>No Image!</h4>';
     } else {
       console.log("Image loaded!")
     }
