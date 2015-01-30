@@ -24,6 +24,10 @@ post '/register' do
   thank_el.to_json
 end
 
+get '/login' do
+  erb :login
+end
+
 get '/movie' do
 
   all_movies = Omdb::Api.new.search(params[:movie])
