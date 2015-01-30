@@ -139,8 +139,11 @@ video#bgvid {
   /*margin: 0 auto;*/
   bottom: 0;
   min-width: 100%; min-height: 100%;
-  width: auto; height: auto; z-index: -100;
-  background: url(../images/ironman.jpg) no-repeat;
+  width: 99%;
+  height: auto;
+  z-index: -100;
+  background-color: black;
+  /*background: url(../images/ironman.jpg) no-repeat;*/
   background-size: cover;
   display: block;
   margin: 0 auto;

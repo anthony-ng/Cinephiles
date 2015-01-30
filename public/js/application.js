@@ -6,7 +6,7 @@ $('document').ready( function(){
   for (i = 0; i < image_el.length; i++) {
     if (image_el[i].src.search(/.N\/A/) !== -1) {
       console.log("No Image!");
-      image_el[i].setAttribute("src", "../images/oscar.jpg");;
+      image_el[i].setAttribute("src", "../images/oscar.jpg");
     } else {
       console.log("Image loaded!")
     }
