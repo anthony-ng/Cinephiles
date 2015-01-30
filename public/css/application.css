@@ -148,6 +148,23 @@ video#bgvid {
   display: block;
   margin: 0 auto;
 }
+
+#register_form {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#register_form input {
+  height: 50px;
+  width: 385px;
+  font-size: 2em;
+  text-align: center;
+}
+
+#reg_submit {
+  color: white;
+  background-color: #1AA278;
+}
 /*
 .button {
   margin: 0 auto;
