@@ -18,6 +18,12 @@ get '/register' do
   erb :register
 end
 
+post '/register' do
+  thank_el = params[:email]
+  content_type :json
+  thank_el.to_json
+end
+
 get '/movie' do
 
   all_movies = Omdb::Api.new.search(params[:movie])

@@ -165,6 +165,10 @@ video#bgvid {
   color: white;
   background-color: #1AA278;
 }
+
+#thanks {
+  /*text-align: center;*/
+}
 /*
 .button {
   margin: 0 auto;

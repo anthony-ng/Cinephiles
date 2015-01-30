@@ -1,7 +1,7 @@
 $('document').ready( function(){
+  addEmail();
 
   // Fix Broken Image
-// function imageCheck() {
   var image_el = $('.poster')
   for (i = 0; i < image_el.length; i++) {
     if (image_el[i].src.search(/.N\/A/) !== -1) {
@@ -11,7 +11,6 @@ $('document').ready( function(){
       console.log("Image loaded!")
     }
   }
-// }
 
   // Footer Date
   var today = new Date();
@@ -96,7 +95,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 var vid = document.getElementById("bgvid");
 var pauseButton = document.getElementById("vidpause");
 function vidFade() {
-vid.classList.add("stopfade");
+  vid.classList.add("stopfade");
 }
 vid.addEventListener('ended', function() {
 // only functional if "loop" is removed
@@ -105,14 +104,14 @@ vid.pause();
 vidFade();
 });
 pauseButton.addEventListener("click", function() {
-vid.classList.toggle("stopfade");
-if (vid.paused) {
-vid.play();
-pauseButton.innerHTML = "Pause";
-} else {
-vid.pause();
-pauseButton.innerHTML = "Paused";
-}
+  vid.classList.toggle("stopfade");
+  if (vid.paused) {
+    vid.play();
+    pauseButton.innerHTML = "Pause";
+  } else {
+    vid.pause();
+    pauseButton.innerHTML = "Paused";
+  }
 })
 
 
@@ -128,3 +127,31 @@ pauseButton.innerHTML = "Paused";
   //   })
   // })
 })
+
+//Register Form
+function addEmail() {
+  $('.register').submit(function(event) {
+    event.preventDefault();
+    var url = $(this).attr('action');
+    //convert a form into key/value pair data
+    var data = $(this).serialize();
+
+    // Testing
+    console.log(url);
+    console.log(data);
+
+    $.ajax({
+      type: 'POST',
+      url: url,
+      data: data
+
+    }).success(function(response) {
+      var thank_el = document.getElementById('thanks');
+      thank_el.innerHTML = '<h3 id="sub_about">Thank you!<br>We have added your email address to the signup queue.</h3>';
+      console.log("ya")
+    }).fail(function(response) {
+      console.log("fail");
+      console.log(data);
+    })
+  })
+}
