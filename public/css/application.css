@@ -166,8 +166,9 @@ video#bgvid {
   background-color: #1AA278;
 }
 
-#thanks {
-  /*text-align: center;*/
+#sub_register {
+  text-align: center;
+  color: white;
 }
 /*
 .button {

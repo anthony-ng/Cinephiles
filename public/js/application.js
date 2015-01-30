@@ -147,7 +147,7 @@ function addEmail() {
 
     }).success(function(response) {
       var thank_el = document.getElementById('thanks');
-      thank_el.innerHTML = '<h3 id="sub_about">Thank you!<br>We have added your email address to the signup queue.</h3>';
+      thank_el.innerHTML = '<h3 id="sub_register">Thank you!<br>We have added your email address to the signup queue.</h3>';
       console.log("ya")
     }).fail(function(response) {
       console.log("fail");
