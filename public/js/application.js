@@ -4,9 +4,9 @@ $('document').ready( function(){
 // function imageCheck() {
   var image_el = $('.poster')
   for (i = 0; i < image_el.length; i++) {
-    if (image_el[i].width < 1 || image_el[1].src.search(/.N\/A/)) {
+    if (image_el[i].src.search(/.N\/A/) !== -1) {
       console.log("No Image!");
-      image_el.innerHTML = '<h4>No Image!</h4>';
+      image_el[i].setAttribute("src", "../images/oscar.jpg");;
     } else {
       console.log("Image loaded!")
     }
