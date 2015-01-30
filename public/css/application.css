@@ -60,10 +60,25 @@
 .popular_movies h4 {
   text-align: left;
   padding-left: 30px;
-  color: white;
 }
 
 .popular_movies h5 {
+  text-align: left;
+  padding-left: 30px;
+  margin-top: -10px;
+}
+
+.home_popular_movie {
+  display: inline-block;
+}
+
+.home_popular_movie h4 {
+  text-align: left;
+  padding-left: 30px;
+  color: white;
+}
+
+.home_popular_movie h5 {
   text-align: left;
   padding-left: 30px;
   margin-top: -10px;
