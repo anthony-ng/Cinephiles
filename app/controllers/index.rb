@@ -116,11 +116,11 @@ get '/comingsoon' do
   comingsoon_movie8 = Omdb::Api.new.fetch('Paul Blart: Mall Cop 2')
   @comingsoon_movie8 = comingsoon_movie8[:movie]
 
-  comingsoon_movie9 = Omdb::Api.new.fetch('Insurgent')
-  @comingsoon_movie9 = comingsoon_movie9[:movie]
+  # comingsoon_movie9 = Omdb::Api.new.fetch('Insurgent')
+  # @comingsoon_movie9 = comingsoon_movie9[:movie]
 
-  comingsoon_movie10 = Omdb::Api.new.fetch('Kingsman: The Secret Service')
-  @comingsoon_movie10 = comingsoon_movie10[:movie]
+  # comingsoon_movie10 = Omdb::Api.new.fetch('Kingsman: The Secret Service')
+  # @comingsoon_movie10 = comingsoon_movie10[:movie]
 
   erb :coming
 end
