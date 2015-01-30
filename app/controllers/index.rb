@@ -14,6 +14,10 @@ get '/' do
   erb :index
 end
 
+get '/register' do
+  erb :register
+end
+
 get '/movie' do
 
   all_movies = Omdb::Api.new.search(params[:movie])
