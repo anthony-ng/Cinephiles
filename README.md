@@ -34,16 +34,18 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 * Added Theater page with Google Map API
 
-### Upcoming
+## Beta 1.0.5
 
-* Save Image into Database for faster load time
+* Added Background video
+
+* Fixed broken poster link
+
+### Upcoming
 
 * Users can log-in/out
 
 * Users can register
 
 * Users can save favorite movies
-
-* Add changing background image
 
 
