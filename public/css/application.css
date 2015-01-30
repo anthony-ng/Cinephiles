@@ -85,6 +85,10 @@ img {
   text-align: center;
 }
 
+.white_footer {
+  color: white;
+}
+
 #movie_check {
   text-align: center;
   padding-top: 200px;
