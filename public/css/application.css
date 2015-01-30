@@ -2,9 +2,17 @@
   background-color: #E1E1E1;
 }
 
-#welcome, #about, #theater {
+#welcome, #about {
   text-align: center;
-  /*background:rgba(255,255,255,0.5);*/
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 300%;
+  padding-top: 50px;
+  color: white;
+}
+
+#theater {
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   font-size: 300%;
@@ -13,6 +21,7 @@
 
 #sub_welcome {
   text-align: center;
+  color: white;
 }
 
 #sub_about {
@@ -20,6 +29,7 @@
   margin-left: 380px;
   width: 400px;
   display: inline-block;
+  color: white;
 }
 
 #oscar {
@@ -34,6 +44,10 @@
   text-align: center;
 }
 
+#home_popular_movies_div h3 {
+  color: white;
+}
+
 #popular_movies_div {
   padding-top: 30px;
   text-align: center;
@@ -46,12 +60,14 @@
 .popular_movies h4 {
   text-align: left;
   padding-left: 30px;
+  color: white;
 }
 
 .popular_movies h5 {
   text-align: left;
   padding-left: 30px;
   margin-top: -10px;
+  color: white;
 }
 
 img {
@@ -98,19 +114,18 @@ img {
   font-weight: bold;`
 }
 
-video #bgvid {
-position: fixed; right: 0; bottom: 0;
-min-width: 100%; min-height: 100%;
-width: auto; height: auto; z-index: -100;
-background: url(../images/ironman.jpg) no-repeat;
-background-size: cover;
-z-index: 0;
+video#bgvid {
+  position: fixed;
+  /*right: 0;*/
+  /*margin: 0 auto;*/
+  bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(../images/ironman.jpg) no-repeat;
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
 }
-
-html { background: url(../images/ironman.jpg) #000 no-repeat center center fixed; }
-#bgvid { display: none; }
-}
-
 /*
 .button {
   margin: 0 auto;
