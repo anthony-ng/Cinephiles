@@ -50,4 +50,6 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 * Users can save favorite movies
 
+* Random generate popular/coming soon movies
+
 
