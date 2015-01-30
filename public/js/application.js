@@ -1,5 +1,6 @@
 $('document').ready( function(){
   addEmail();
+  countdown();
 
   // Fix Broken Image
   var image_el = $('.poster')
@@ -154,4 +155,9 @@ function addEmail() {
       console.log(data);
     })
   })
+}
+
+function countdown() {
+  Countdown until 2050
+  <h1 id="countdown-holder"></h1>
 }
