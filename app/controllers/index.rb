@@ -19,9 +19,9 @@ get '/register' do
 end
 
 post '/register' do
-  @thank_el = params[:email]
+  thank_el = params[:email]
   content_type :json
-  @thank_el.to_json
+  thank_el.to_json
 end
 
 get '/movie' do

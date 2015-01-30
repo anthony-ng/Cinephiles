@@ -46,29 +46,28 @@
 
   <h1 id="about">366,158 People ahead of you</h1>
   <div id="thanks"></div>
-  <% if !@thank_el %>
+
   <form action="/register" class="register" id="register_form" method='post'>
     <input type="text" name="email" placeholder="Enter email address ">
     <input id="reg_submit" type="submit" value="Get Early Access">
   </form>
-  <% end %>
 
   <video autoplay loop poster="../images/ironman.jpg" id="bgvid">
     <source src="../images/ironman.webm" type="video/webm">
-      <source src="../images/ironman.mp4" type="video/mp4">
-      </video>
-      <div class="white_footer" id="footer"></div>
+    <source src="../images/ironman.mp4" type="video/mp4">
+  </video>
+  <div class="white_footer" id="footer"></div>
 
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-      <script src="js/application.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-      <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-      </script>
-    </body>
-    </html>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/application.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script>
+  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+  e.src='//www.google-analytics.com/analytics.js';
+  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+  ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>
+</body>
+</html>
