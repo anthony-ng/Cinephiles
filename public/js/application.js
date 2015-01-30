@@ -4,7 +4,7 @@ $('document').ready( function(){
 // function imageCheck() {
   var image_el = $('.poster')
   for (i = 0; i < image_el.length; i++) {
-    if (image_el[i].width < 1 || image_el[i].src === "/N/A") {
+    if (image_el[i].width < 1 || image_el[1].src.search(/.N\/A/)) {
       console.log("No Image!");
       image_el.innerHTML = '<h4>No Image!</h4>';
     } else {
