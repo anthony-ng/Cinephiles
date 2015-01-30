@@ -170,6 +170,13 @@ video#bgvid {
   text-align: center;
   color: white;
 }
+
+.countdown {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 4em;
+}
 /*
 .button {
   margin: 0 auto;
