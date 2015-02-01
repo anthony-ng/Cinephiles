@@ -4,6 +4,10 @@
 
 Cinephiles is an visual discovery and sharing web application all about Movies.
 
+## Technology
+
+
+
 ## Releases
 
 ### Beta 1.0
