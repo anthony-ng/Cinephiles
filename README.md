@@ -18,6 +18,8 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 * Google API
 
+* OMDB API
+
 ## Releases
 
 ### Beta 1.0
