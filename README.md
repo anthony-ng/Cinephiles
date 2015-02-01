@@ -6,7 +6,9 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 ## Technology
 
+* HTML 5
 
+* CSS 3
 
 ## Releases
 
