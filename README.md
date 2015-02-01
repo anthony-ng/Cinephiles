@@ -20,7 +20,7 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 * OMDB API
 
-*
+* BCrypt User Authentication
 
 ## Releases
 
