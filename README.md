@@ -12,7 +12,7 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 * Ruby with Sinatra framework
 
-
+* JavaScript & jQuery
 
 ## Releases
 
