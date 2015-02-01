@@ -10,6 +10,10 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 * CSS 3
 
+* Ruby with Sinatra framework
+
+
+
 ## Releases
 
 ### Beta 1.0
