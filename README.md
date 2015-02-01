@@ -14,6 +14,8 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 * JavaScript & jQuery
 
+* Heroku
+
 ## Releases
 
 ### Beta 1.0
