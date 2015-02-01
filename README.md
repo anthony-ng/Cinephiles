@@ -70,4 +70,8 @@ Cinephiles is an visual discovery and sharing web application all about Movies. 
 
 * Random generate different `popular/coming soon movies
 
+### Issue
+
+* Sometimes, the poster may not be able to be shown due to redirecting error
+
 
