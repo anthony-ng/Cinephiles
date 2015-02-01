@@ -40,7 +40,7 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 * Fixed broken poster link
 
-## Beta 1.0.6
+## Beta 1.5
 
 * Users can register
 
