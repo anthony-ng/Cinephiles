@@ -20,13 +20,13 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 * Added popular movies on homepage
 
-## Beta 1.0.3
+## Beta 1.2
 
 * Added about page
 
 * Added result page: has poster & other details/ links to amazon
 
-## Beta 1.0.4
+## Beta 1.3
 
 * Added Popular page
 
@@ -34,7 +34,7 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 * Added Theater page with Google Map API
 
-## Beta 1.0.5
+## Beta 1.4
 
 * Added Background video
 
