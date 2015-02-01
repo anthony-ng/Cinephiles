@@ -12,13 +12,15 @@ Cinephiles is an visual discovery and sharing web application all about Movies.
 
 * Ruby with Sinatra framework
 
-* JavaScript & jQuery
+* JavaScript, jQuery & AJAX
 
 * Heroku
 
 * Google API
 
 * OMDB API
+
+*
 
 ## Releases
 
