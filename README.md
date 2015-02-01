@@ -2,7 +2,7 @@
 
 ## Summary
 
-Cinephiles is an visual discovery and sharing web application all about Movies.
+Cinephiles is an visual discovery and sharing web application all about Movies. User can search, browse, watch, and buy their favorite movies anywhere, anytime.
 
 ## Technology
 
