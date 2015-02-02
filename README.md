@@ -24,14 +24,11 @@ Cinephiles is an visual discovery and sharing web application all about Movies. 
 * Updated HTML & CSS
 
 ### Beta 1.1
-
 * Updated UI 2.0
 * Added popular movies on homepage
 
 ### Beta 1.2
-
 * Added about page
-
 * Added result page: has poster & other details/ links to amazon
 
 ### Beta 1.3
