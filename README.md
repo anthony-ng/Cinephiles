@@ -26,7 +26,6 @@ Cinephiles is an visual discovery and sharing web application all about Movies. 
 ### Beta 1.1
 
 * Updated UI 2.0
-
 * Added popular movies on homepage
 
 ### Beta 1.2
