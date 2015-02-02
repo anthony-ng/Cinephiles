@@ -47,6 +47,9 @@ Cinephiles is an visual discovery and sharing web application all about Movies. 
 
 * Users can 'actual' register
 * Users can 'actual' login
+* Add Users profile page
+* Add Users bookmark page
+*
 * Random generate different `popular/coming soon movies
 * Users can share favorite movies
 *  
