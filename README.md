@@ -40,15 +40,12 @@ Cinephiles is an visual discovery and sharing web application all about Movies. 
 * Fixed broken poster link
 
 ### Beta 1.5
-
 * Users can register
-
 * Users can login
 
 ### Upcoming
 
 * Users can save favorite movies
-
 * Random generate different `popular/coming soon movies
 * Users can share favorite movies
 *  
