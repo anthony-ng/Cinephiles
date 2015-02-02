@@ -7,21 +7,13 @@ Cinephiles is an visual discovery and sharing web application all about Movies. 
 ## Technology
 
 * HTML 5
-
 * CSS 3
-
 * Ruby with Sinatra framework
-
 * JavaScript, jQuery & AJAX
-
 * Heroku
-
 * Google API
-
 * OMDB API
-
 * BCrypt User Authentication
-
 ## Releases
 
 ### Beta 1.0
@@ -69,7 +61,8 @@ Cinephiles is an visual discovery and sharing web application all about Movies. 
 * Users can save favorite movies
 
 * Random generate different `popular/coming soon movies
-*  Users can share favorite movies
+* Users can share favorite movies
+*  
 
 ## Issue
 
