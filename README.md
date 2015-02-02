@@ -18,7 +18,6 @@ Cinephiles is an visual discovery and sharing web application all about Movies. 
 ## Releases
 
 ### Beta 1.0
-
 * Added Amazon.com link to watch the movie via Amazon Instant Video or buy blu-ray/DVD disc
 * Updated UI layout
 * Updated HTML & CSS
@@ -32,11 +31,8 @@ Cinephiles is an visual discovery and sharing web application all about Movies. 
 * Added result page: has poster & other details/ links to amazon
 
 ### Beta 1.3
-
 * Added Popular page
-
 * Added Coming Soon page
-
 * Added Theater page with Google Map API
 
 ### Beta 1.4
