@@ -1,4 +1,4 @@
-# [Cinephiles](cinephiles.herokuapp.com/)
+# [Cinephiles](https://cinephiles.herokuapp.com/)
 
 ## Summary
 
