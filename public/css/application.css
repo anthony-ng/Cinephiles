@@ -139,7 +139,8 @@ video#bgvid {
   /*margin: 0 auto;*/
   bottom: 0;
   min-width: 100%; min-height: 100%;
-  width: 99%;
+  width: 90%;
+  /*height: 500px;*/
   height: auto;
   z-index: -100;
   background-color: black;
