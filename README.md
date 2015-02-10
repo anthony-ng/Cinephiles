@@ -57,6 +57,7 @@ Cinephiles is an visual discovery and sharing web application all about Movies. 
 * Random generate different `popular/coming soon movies
 * Users can share favorite movies
 * Create API for 3rd party use
+* Change API from OMBD to TMDB
 
 ## Issue
 
