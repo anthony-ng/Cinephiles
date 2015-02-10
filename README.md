@@ -49,6 +49,7 @@ Cinephiles is an visual discovery and sharing web application all about Movies. 
 * Fix redirecting error
 * Users can 'actual' register
 * Users can 'actual' login
+- Phase 2 -
 * Add Users profile page
 * Add Users bookmark page
 * Add Contact Me form
