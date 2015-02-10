@@ -14,6 +14,7 @@ $('document').ready( function(){
 
 
 
+
   // Footer Date
   var today = new Date();
   var date = today.getYear() + 1900;
