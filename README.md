@@ -53,6 +53,7 @@ Cinephiles is an visual discovery and sharing web application all about Movies. 
 * Add Users profile page
 * Add Users bookmark page
 * Add Contact Me form
+- Phase 3 -
 * Random generate different `popular/coming soon movies
 * Users can share favorite movies
 * Create API for 3rd party use
